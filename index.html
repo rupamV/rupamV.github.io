@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sudoku</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/09bf6604f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="difficulty">
+        <h1>Choose Difficulty</h1>
+        <button class="easy">Easy</button><button class="medium">Medium</button
+        ><button class="hard">Hard</button>
+      </div>
+      <div id="sudoku">
+        <h1 id="difficulty-chosen"></h1>
+      </div>
+      <div class="timer">
+        <h1><i class="far fa-clock"></i><span id="time">00:00</span></h1>
+      </div>
+
+      <div class="result">
+        <h1><span>🎉</span>Congratulations<span>🎉</span></h1>
+        <h2>You have completed the game in <span id="time-taken"></span></h2>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
